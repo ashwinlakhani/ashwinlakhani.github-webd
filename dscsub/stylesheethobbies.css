@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{ 
+    padding=0;
+    margin=0;
+}
+.navibar{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+    background: rgb(0, 0, 0);
+}
+.logo{
+	top:10;
+    width: 140px;
+    height:69px;
+    padding:10px 1px;
+}
+.navibar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navibar ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 60px;
+}
+.navibar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navibar ul li a.active,
+.navibar ul li a:hover{
+	background: rgb(255, 0, 0);
+	border-radius: 2px;
+}
+.body1{
+	background: rgb(255, 255, 255);
+	margin: auto;
+	width: 100%;
+	margin-top: 10rem;
+    text-align: right;
+    margin-right: 70px;
+}
+h1{
+	color:rgb(0, 0, 0);
+	font-size:4rem;
+	font-weight:800;
+	letter-spacing:5px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+h3{
+	color:rgb(43, 42, 42);
+	font-size:2rem;
+	font-weight:800;
+	letter-spacing:2px;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 300px ;
+}
+.img1
+{max-width: 30%;  
+    height: auto;
+    margin-right:520px;
+    border: solid rgb(0, 0, 0)
+}
